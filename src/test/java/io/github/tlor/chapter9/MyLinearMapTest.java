@@ -8,14 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import io.github.tlor.chapter10.MyHashMap;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * @author downey
- *
- */
 public class MyLinearMapTest {
 
 	protected Map<String, Integer> map;
@@ -25,7 +20,7 @@ public class MyLinearMapTest {
 	 */
 	@Before
 	public void setUp() throws Exception {
-		map = new MyHashMap.MyLinearMap<String, Integer>();
+		map = new MyLinearMap<String, Integer>();
 		map.put("One", 1);
 		map.put("Two", 2);
 		map.put("Three", 3);
@@ -33,7 +28,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#clear()}.
+	 * Test method for {@link MyLinearMap#clear()}.
 	 */
 	@Test
 	public void testClear() {
@@ -42,7 +37,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#containsKey(Object)}.
+	 * Test method for {@link MyLinearMap#containsKey(Object)}.
 	 */
 	@Test
 	public void testContainsKey() {
@@ -52,7 +47,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#containsValue(Object)}.
+	 * Test method for {@link MyLinearMap#containsValue(Object)}.
 	 */
 	@Test
 	public void testContainsValue() {
@@ -62,7 +57,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#get(Object)}.
+	 * Test method for {@link MyLinearMap#get(Object)}.
 	 */
 	@Test
 	public void testGet() {
@@ -72,7 +67,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#isEmpty()}.
+	 * Test method for {@link MyLinearMap#isEmpty()}.
 	 */
 	@Test
 	public void testIsEmpty() {
@@ -82,7 +77,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#keySet()}.
+	 * Test method for {@link MyLinearMap#keySet()}.
 	 */
 	@Test
 	public void testKeySet() {
@@ -94,7 +89,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#put(Object, Object)}.
+	 * Test method for {@link MyLinearMap#put(Object, Object)}.
 	 */
 	@Test
 	public void testPut() {
@@ -108,7 +103,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#putAll(Map)}.
+	 * Test method for {@link MyLinearMap#putAll(Map)}.
 	 */
 	@Test
 	public void testPutAll() {
@@ -121,7 +116,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#remove(Object)}.
+	 * Test method for {@link MyLinearMap#remove(Object)}.
 	 */
 	@Test
 	public void testRemove() {
@@ -131,7 +126,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#size()}.
+	 * Test method for {@link MyLinearMap#size()}.
 	 */
 	@Test
 	public void testSize() {
@@ -139,7 +134,7 @@ public class MyLinearMapTest {
 	}
 
 	/**
-	 * Test method for {@link MyHashMap.MyLinearMap#values()}.
+	 * Test method for {@link MyLinearMap#values()}.
 	 */
 	@Test
 	public void testValues() {
