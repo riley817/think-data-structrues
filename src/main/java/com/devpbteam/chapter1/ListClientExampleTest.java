@@ -1,6 +1,5 @@
-package com.devpbteam.chater1;
+package com.devpbteam.chapter1;
 
-import com.devpbteam.chapter1.ListClientExample;
 import org.junit.Test;
 
 import java.util.ArrayList;
